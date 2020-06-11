@@ -1,0 +1,36 @@
+body {
+  font-family: verdana;
+}
+
+#calculadora {
+  width: 300px;
+  background: grey;
+  border-radius: 3%;
+  padding: 20px;
+}
+
+#teclado {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+#teclado button {
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+#display {
+  padding: 24px;
+  font-size: 30px;
+  text-align: right;
+  background: whitesmoke;
+  color: black;
+  margin: 10px 0;
+  width: 240px;
+}
+
+#C {
+  color: red;
+}

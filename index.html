@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="calc.js"></script>
+
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <div id="calculadora">
+      <textarea id="display" disabled rows="1"></textarea>
+      <div id="teclado">
+        <button onclick="pressNum (this)">%</button>
+        <button id="CE" onclick="clearAll()">CE</button>
+        <button id="C" onclick="clearMemory()">C</button>
+        <button onclick="pressOperator (this)">/</button>
+        <button onclick="pressNum (this)">7</button>
+        <button onclick="pressNum (this)">8</button>
+        <button onclick="pressNum (this)">9</button>
+        <button onclick="pressOperator (this)">x</button>
+        <button onclick="pressNum (this)">4</button>
+        <button onclick="pressNum (this)">5</button>
+        <button onclick="pressNum (this)">6</button>
+        <button onclick="pressOperator (this)">-</button>
+        <button onclick="pressNum (this)">1</button>
+        <button onclick="pressNum (this)">2</button>
+        <button onclick="pressNum (this)">3</button>
+        <button onclick="pressOperator (this)">+</button>
+        <button onclick="pressNum (this)">+/-</button>
+        <button onclick="pressNum (this)">0</button>
+        <button onclick="pressOperator (this)">,</button>
+        <button onclick="pressEqual()">=</button>
+      </div>
+    </div>
+  </body>
+</html>
