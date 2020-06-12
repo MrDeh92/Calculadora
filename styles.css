@@ -1,34 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: verdana;
+  background-color: black;
 }
 
-#calculadora {
-  width: 300px;
-  background: grey;
-  border-radius: 3%;
-  padding: 20px;
-}
-
-#teclado {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-}
-
-#teclado button {
-  padding: 10px;
-  font-size: 24px;
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25pt;
+  color: white;
+  background-color: black;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
   border-radius: 50%;
 }
 
-#display {
-  padding: 24px;
-  font-size: 30px;
-  text-align: right;
-  background: whitesmoke;
-  color: black;
-  margin: 10px 0;
-  width: 240px;
+.textview {
+  padding: 5px;
+  font-size: 25pt;
+  margin: 5px;
+  width: 230px;
+  border-radius: 5px;
+}
+
+.main {
+  position: absolute;
+  margin: 10px;
+  background: url(../Calculadora/img/backgroud.png);
+  padding: 10px;
+  border-radius: 30px;
 }
 
 #C {
